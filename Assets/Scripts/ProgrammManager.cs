@@ -27,6 +27,10 @@ public class ProgrammManager : MonoBehaviour
 
     public bool Moving; 
 
+    public bool Rotation;
+
+    private Quaternion YRotation;
+
     void Start()
     {
         ARRaycastManagerScript = FindObjectOfType<ARRaycastManager>(); 
@@ -39,11 +43,12 @@ public class ProgrammManager : MonoBehaviour
     void Update()
     {
         if (ChooseObject) 
+
         {
             ShowMarkerAndSetObject(); 
         }
 
-        MoveObject(); 
+        MoveObjectAndRotation(); 
     }
     void ShowMarkerAndSetObject()
     {
@@ -67,7 +72,7 @@ public class ProgrammManager : MonoBehaviour
         }
     }
 
-    void MoveObject() 
+    void MoveObjectAndRotation() 
     {
         if (Input.touchCount > 0) 
         {
@@ -89,13 +94,20 @@ public class ProgrammManager : MonoBehaviour
                 }
             }
 
-            if (touch.phase == TouchPhase.Moved) 
+            SelectedObject = GameObject.FindWithTag("Selected"); 
+
+            if (touch.phase == TouchPhase.Moved && Input.touchCount == 1) 
             {
                 if (Moving) 
                 {
                     ARRaycastManagerScript.Raycast(TouchPosition, hits, TrackableType.Planes); 
-                    SelectedObject = GameObject.FindWithTag("Selected"); 
                     SelectedObject.transform.position = hits[0].pose.position; 
+                }
+
+                if (Rotation) 
+                {
+                    YRotation = Quaternion.Euler(0f, -touch.deltaPosition.x * 0.1f, 0f); 
+                    SelectedObject.transform.rotation = YRotation * SelectedObject.transform.rotation; 
                 }
             }
 

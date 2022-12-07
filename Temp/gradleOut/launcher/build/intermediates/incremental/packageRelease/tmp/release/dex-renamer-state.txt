@@ -1,4 +1,0 @@
-#Sun Dec 04 18:05:12 MSK 2022
-base.0=/Users/lada/Lada proj/Temp/gradleOut/launcher/build/intermediates/transforms/dexMerger/release/0
-path.0=classes.dex
-renamed.0=classes.dex
