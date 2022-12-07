@@ -3,6 +3,7 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - AddObject
     - ChooseObject
+    - Communication
     - MovingObject
     - ProgrammManager
     - RotationObject
@@ -69,55 +70,57 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11164}
     - Class: 114
-      Script: {instanceID: 11346}
+      Script: {instanceID: 11286}
     - Class: 114
-      Script: {instanceID: 11350}
+      Script: {instanceID: 11348}
     - Class: 114
-      Script: {instanceID: 11392}
+      Script: {instanceID: 11352}
     - Class: 114
-      Script: {instanceID: 11404}
+      Script: {instanceID: 11394}
     - Class: 114
-      Script: {instanceID: 11434}
+      Script: {instanceID: 11406}
     - Class: 114
-      Script: {instanceID: 11518}
+      Script: {instanceID: 11436}
     - Class: 114
-      Script: {instanceID: 11536}
+      Script: {instanceID: 11520}
     - Class: 114
-      Script: {instanceID: 11586}
+      Script: {instanceID: 11538}
     - Class: 114
-      Script: {instanceID: 11612}
+      Script: {instanceID: 11588}
     - Class: 114
-      Script: {instanceID: 11714}
+      Script: {instanceID: 11614}
     - Class: 114
-      Script: {instanceID: 11770}
+      Script: {instanceID: 11716}
     - Class: 114
-      Script: {instanceID: 11790}
+      Script: {instanceID: 11772}
     - Class: 114
-      Script: {instanceID: 11880}
+      Script: {instanceID: 11792}
     - Class: 114
-      Script: {instanceID: 12130}
+      Script: {instanceID: 11882}
     - Class: 114
-      Script: {instanceID: 12378}
+      Script: {instanceID: 12132}
     - Class: 114
-      Script: {instanceID: 12486}
+      Script: {instanceID: 12380}
     - Class: 114
-      Script: {instanceID: 12640}
+      Script: {instanceID: 12488}
     - Class: 114
-      Script: {instanceID: 12840}
+      Script: {instanceID: 12642}
     - Class: 114
-      Script: {instanceID: 12906}
+      Script: {instanceID: 12842}
     - Class: 114
-      Script: {instanceID: 12966}
+      Script: {instanceID: 12908}
     - Class: 114
-      Script: {instanceID: 12990}
+      Script: {instanceID: 12968}
     - Class: 114
-      Script: {instanceID: 13160}
+      Script: {instanceID: 12992}
     - Class: 114
-      Script: {instanceID: 13298}
+      Script: {instanceID: 13162}
     - Class: 114
-      Script: {instanceID: 13404}
+      Script: {instanceID: 13300}
     - Class: 114
-      Script: {instanceID: 15372}
+      Script: {instanceID: 13406}
+    - Class: 114
+      Script: {instanceID: 14900}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -135,6 +138,8 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
+      Script: {instanceID: 0}
+    - Class: 328
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -167,6 +172,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_ScrollbarEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RotationObject
   - hash:
       serializedVersion: 2
       Hash: 04e4a8b0447477cc4e933d9e5311188f
@@ -223,7 +234,7 @@ ScriptsOnlyBuild:
     className: Image
   - hash:
       serializedVersion: 2
-      Hash: 455906780dd33c449f05c2d035a171d4
+      Hash: 6c0ce3ffb8a5496ce6075b0100c43868
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ProgrammManager
@@ -784,8 +795,8 @@ ScriptsOnlyBuild:
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: RotationObject
+    className: Communication
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: /Users/lada/Lada proj/Lab_5_2.apk
+  playerPath: /Users/lada/Lada proj/Lab_6.apk
