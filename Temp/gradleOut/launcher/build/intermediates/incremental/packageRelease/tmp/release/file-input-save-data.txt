@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Dec 07 19:21:56 MSK 2022
+#Fri Dec 09 19:20:01 MSK 2022
 60.set=ASSET
 52.set=NATIVE_RESOURCE
 53.base=/Users/lada/Lada proj/Temp/gradleOut/launcher/build/intermediates/merged_assets/release/out

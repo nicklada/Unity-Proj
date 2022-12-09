@@ -24,6 +24,7 @@ ScriptsOnlyBuild:
     - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateEditor
     - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
@@ -115,29 +116,29 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12132}
     - Class: 114
-      Script: {instanceID: 12380}
+      Script: {instanceID: 12184}
     - Class: 114
-      Script: {instanceID: 12488}
+      Script: {instanceID: 12382}
     - Class: 114
-      Script: {instanceID: 12642}
+      Script: {instanceID: 12490}
     - Class: 114
-      Script: {instanceID: 12842}
+      Script: {instanceID: 12598}
     - Class: 114
-      Script: {instanceID: 12908}
+      Script: {instanceID: 12646}
     - Class: 114
-      Script: {instanceID: 12968}
+      Script: {instanceID: 12846}
     - Class: 114
-      Script: {instanceID: 12992}
+      Script: {instanceID: 12912}
     - Class: 114
-      Script: {instanceID: 13162}
+      Script: {instanceID: 12972}
     - Class: 114
-      Script: {instanceID: 13300}
+      Script: {instanceID: 12996}
     - Class: 114
-      Script: {instanceID: 13406}
+      Script: {instanceID: 13166}
     - Class: 114
-      Script: {instanceID: 14900}
+      Script: {instanceID: 13304}
     - Class: 114
-      Script: {instanceID: 16300}
+      Script: {instanceID: 13410}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -468,6 +469,12 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CharacterAnimation
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SpriteAnimator
@@ -525,6 +532,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.ARFoundation.dll
     namespaceName: UnityEngine.XR.ARFoundation
     className: ARPointCloudParticleVisualizer
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Communication
   - hash:
       serializedVersion: 2
       Hash: 783f593b9380cf72d0f7ebfd4a0d4bcd
@@ -807,19 +820,7 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Communication
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CharacterAnimation
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: /Users/lada/Lada proj/Lab_7_video_link_updated_2.apk
+  playerPath: /Users/lada/Lada proj/Lab_7_video_link_updated_4.apk
