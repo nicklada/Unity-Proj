@@ -1,4 +1,4 @@
-#Fri Dec 09 19:20:00 MSK 2022
+#Fri Dec 09 21:26:06 MSK 2022
 base.0=/Users/lada/Lada proj/Temp/gradleOut/launcher/build/intermediates/transforms/dexMerger/release/0
 path.0=classes.dex
 renamed.0=classes.dex
